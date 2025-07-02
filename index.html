@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="48x48" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <title>女骑士模拟器</title>
+    <meta
+      name="description"
+      content="点击开始按钮，你的角色就会开始进行一次同人 RPG 游戏女主角风格的全自动冒险——持续到达成某个结局为止。"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-L2NY7EJMRK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-L2NY7EJMRK');
+    </script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+      }
+      body {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+      }
+      h2,
+      p {
+        margin-top: 0;
+      }
+      .app {
+        flex: 1 1 auto;
+        display: flex;
+        overflow: hidden;
+      }
+      .left {
+        flex: 0 0 auto;
+        overflow-y: auto;
+        margin-right: 24px;
+      }
+      .right {
+        flex: 1 1 auto;
+        overflow-y: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>女骑士模拟器</h2>
+    <p>
+      <button id="newgame">开始</button>
+      <button id="pause_btn">暂停</button>
+      <button id="step_btn">单步</button>
+      <button id="auto_btn">自动</button>
+      <button id="fast_btn">快速</button>
+    </p>
+    <p id="attribute">
+      <b id="loading">[加载中...]</b>
+      本游戏纯属虚构，如有雷同，纯属巧合。登场人物均满十八岁。
+      <a href="https://dsrhina.org/" target="_blank" rel="noopener">绯夏仓库</a>
+    </p>
+    <div class="app">
+      <div class="left">
+        <p id="status"></p>
+      </div>
+      <div class="right" id="bottom-right">
+        <p id="gamelog"></p>
+      </div>
+    </div>
+    <script src="./main.8096cce7.js"></script>
+    <script src="./events.037a6259.js"></script>
+    <script src="./goblin.0299122d.js"></script>
+    <script src="./guild.63171e71.js"></script>
+    <script src="./town.ec7408fa.js"></script>
+    <script src="./bar.802b4d64.js"></script>
+    <script src="./slime.6dd7fcf3.js"></script>
+    <script src="./orc.68fdf0f3.js"></script>
+    <script src="./tentacle.94f1c63f.js"></script>
+    <script src="./finalboss.e3a7be39.js"></script>
+    <script src="./friendship.7a17976d.js"></script>
+    <script src="./treasure.a1e73a66.js"></script>
+    <script src="./loan.11c9cf36.js"></script>
+    <script src="./prostitute.093c583d.js"></script>
+    <script src="./status_ev.7a423590.js"></script>
+    <script src="./btn.545c5fba.js"></script>
+    <script src="./init.46973eab.js"></script>
+  </body>
+</html>
